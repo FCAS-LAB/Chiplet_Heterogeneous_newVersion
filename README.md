@@ -1,5 +1,5 @@
 
-For the detail documents in English, please access [Document for LegoSim](https://fcas-zju.github.io/Chiplet_Heterogeneous_newVersion/).
+For the detail documents in English, please access [Document for LegoSim](https://fcas-lab.github.io/Chiplet_Heterogeneous_newVersion/).
 
 # 安装
 
@@ -8,7 +8,7 @@ For the detail documents in English, please access [Document for LegoSim](https:
 1. 从github上下载仓库。
 
     ```
-    git clone --single-branch --branch master_v2 https://github.com/FCAS-SCUT/Chiplet_Heterogeneous_newVersion.git
+    git clone --single-branch --branch master_v2 https://github.com/FCAS-LAB/Chiplet_Heterogeneous_newVersion.git
     ```
 
     进入仿真器根目录，以下的示例命名都假设从仿真器根目录开始执行。
