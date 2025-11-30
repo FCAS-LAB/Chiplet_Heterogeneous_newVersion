@@ -1,0 +1,60 @@
+# Phase 1 configuration.
+phase1:
+  # Process 0
+  - cmd: "$BENCHMARK_ROOT/bin/resnet_cu"
+    args: ["0", "1", "1"]
+    log: "gpgpusim.0.1.log"
+    is_to_stdout: false
+    clock_rate: 1
+    pre_copy: "$SIMULATOR_ROOT/gpgpu-sim/configs/tested-cfgs/SM7_TITANV/*"
+  #  Process 1
+  - cmd: "$BENCHMARK_ROOT/bin/resnet_cu"
+    args: ["0", "2", "1"]
+    log: "gpgpusim.0.2.log"
+    is_to_stdout: false
+    clock_rate: 1
+    pre_copy: "$SIMULATOR_ROOT/gpgpu-sim/configs/tested-cfgs/SM7_TITANV/*"
+  # Process 2
+  - cmd: "$BENCHMARK_ROOT/bin/resnet_cu"
+    args: ["0", "3", "1"]
+    log: "gpgpusim.0.3.log"
+    is_to_stdout: false
+    clock_rate: 1
+    pre_copy: "$SIMULATOR_ROOT/gpgpu-sim/configs/tested-cfgs/SM7_TITANV/*"
+  # # Process 3
+  - cmd: "$BENCHMARK_ROOT/bin/resnet_cu"
+    args: ["0", "4", "1"]
+    log: "gpgpusim.0.4.log"
+    is_to_stdout: false
+    clock_rate: 1
+    pre_copy: "$SIMULATOR_ROOT/gpgpu-sim/configs/tested-cfgs/SM7_TITANV/*"
+  # Process 4
+  - cmd: "$SIMULATOR_ROOT/snipersim/run-sniper"
+    args: ["--", "$BENCHMARK_ROOT/bin/resnet_c", "5", "5", "1"]
+    log: "sniper.5.5.log"
+    is_to_stdout: false
+    clock_rate: 1
+  # Process 5
+  - cmd: "$BENCHMARK_ROOT/bin/cim"
+    args: ["1", "0"]
+    log: "npu.1.0.log"
+    is_to_stdout: false
+    clock_rate: 1
+  # Process 6
+  - cmd: "$BENCHMARK_ROOT/bin/dram"
+    args: ["0", "5"]
+    log: "dram.0.5.log"
+    is_to_stdout: false
+    clock_rate: 1
+# Phase 2 configuration.
+phase2:
+  # Process 0
+  - cmd: "$SIMULATOR_ROOT/popnet_chiplet/build/popnet"
+    args: ["-A", "36", "-c", "1", "-V", "3", "-B", "12", "-O", "12", "-F", "200", "-L", "1000", "-T", "1000000000000", "-r", "1", "-I", "../bench.txt","-R", "4", "-G", "../topology/mesh_6_6_flit_2.gv", "-D", "../delayInfo.txt", "-P"]
+    log: "popnet.log"
+    is_to_stdout: false
+    clock_rate: 1
+
+# File configuration. (Not used yet)
+bench_file: "./bench.txt"
+delayinfo_file: "./delayInfo.txt"
