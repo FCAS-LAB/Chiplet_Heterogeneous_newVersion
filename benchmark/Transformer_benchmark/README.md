@@ -8,3 +8,7 @@ make
 ```sh
 make run
 ```
+## 3. 清除
+```sh
+make clean
+```
