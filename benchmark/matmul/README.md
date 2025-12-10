@@ -1,7 +1,11 @@
 Benchmark移植指引
+
 运行：
+
 make # 编译
+
 ../../interchiplet/bin/interchiplet ./matmul.yml # 运行
+
 make clean # 清空
 
 注意：
