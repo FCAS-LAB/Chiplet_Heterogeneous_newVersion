@@ -1,0 +1,1421 @@
+Running main() from /home/wjh/tools/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = CCPSTopTest.LoopbackTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CCPSTopTest
+[ RUN      ] CCPSTopTest.LoopbackTest
+in .top propagateClock
+.top.ccps_top.logphy.sideband_channel propagateClock
+in .top propagateClock
+.top.ccps_top.logphy.sideband_channel propagateClock
+=============== step 0 ====================
+.top.ccps_top.logphy.training_module.counter: reset
+expected data bytes 8, rounded data bytes 8
+================ running 1 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x1 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xea
+, bits width 320, cmd width 64, header1 width 64, header2 width 64
+sending packet 0
+packet_info: add packet index 0
+packet_info: packet_idx 0 set finished 
+sending head 1 packet_idx 1 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 1 ====================
+sending head 1 packet_idx 1 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 2 ====================
+sending head 1 packet_idx 1 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 3 ====================
+sending head 1 packet_idx 1 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 4 ====================
+sending head 1 packet_idx 1 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 5 ====================
+sending head 1 packet_idx 1 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 6 ====================
+sending head 1 packet_idx 1 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 7 ====================
+received packet 0 0
+sending head 1 packet_idx 1 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 8 ====================
+packet_info: pop packet index 0 tag index 0 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x1 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xea
+
+compare success!!!
+expected data bytes 16, rounded data bytes 16
+================ running 2 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x2 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x1cc
+, bits width 384, cmd width 64, header1 width 64, header2 width 64
+sending packet 1
+packet_info: add packet index 1
+packet_info: packet_idx 1 set finished 
+sending head 1 packet_idx 2 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 9 ====================
+sending head 1 packet_idx 2 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 10 ====================
+sending head 1 packet_idx 2 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 11 ====================
+sending head 1 packet_idx 2 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 12 ====================
+sending head 1 packet_idx 2 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 13 ====================
+sending head 1 packet_idx 2 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 14 ====================
+sending head 1 packet_idx 2 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 15 ====================
+received packet 1 0
+sending head 1 packet_idx 2 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 16 ====================
+packet_info: pop packet index 1 tag index 0 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x2 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x1cc
+
+compare success!!!
+expected data bytes 96, rounded data bytes 96
+================ running 12 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0xc source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x8b
+, bits width 1024, cmd width 64, header1 width 64, header2 width 64
+sending packet 2
+packet_info: add packet index 2
+sending head 0 packet_idx 2 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 17 ====================
+packet_info: packet_idx 2 inc tag index 0
+packet_info: packet_idx 2 set finished 
+sending head 1 packet_idx 3 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 18 ====================
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 19 ====================
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 20 ====================
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 21 ====================
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 22 ====================
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 23 ====================
+received packet 2 1
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 24 ====================
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 25 ====================
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 26 ====================
+received packet 2 1
+sending head 1 packet_idx 3 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 27 ====================
+packet_info: pop packet index 2 tag index 1 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0xc source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x8b
+
+compare success!!!
+expected data bytes 136, rounded data bytes 136
+================ running 17 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x11 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x169
+, bits width 1344, cmd width 64, header1 width 64, header2 width 64
+sending packet 3
+packet_info: add packet index 3
+sending head 0 packet_idx 3 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 28 ====================
+packet_info: packet_idx 3 inc tag index 0
+sending head 0 packet_idx 3 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 29 ====================
+sending head 0 packet_idx 3 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 30 ====================
+sending head 0 packet_idx 3 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 31 ====================
+packet_info: packet_idx 3 inc tag index 1
+packet_info: packet_idx 3 set finished 
+sending head 1 packet_idx 4 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 32 ====================
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 33 ====================
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 34 ====================
+received packet 3 2
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 35 ====================
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 36 ====================
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 37 ====================
+received packet 3 2
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 38 ====================
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 39 ====================
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 40 ====================
+received packet 3 2
+sending head 1 packet_idx 4 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 41 ====================
+packet_info: pop packet index 3 tag index 2 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x11 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x169
+
+compare success!!!
+expected data bytes 144, rounded data bytes 144
+================ running 18 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x12 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xef
+, bits width 1408, cmd width 64, header1 width 64, header2 width 64
+sending packet 4
+packet_info: add packet index 4
+sending head 0 packet_idx 4 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 42 ====================
+packet_info: packet_idx 4 inc tag index 0
+sending head 0 packet_idx 4 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 43 ====================
+sending head 0 packet_idx 4 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 44 ====================
+sending head 0 packet_idx 4 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 45 ====================
+packet_info: packet_idx 4 inc tag index 1
+packet_info: packet_idx 4 set finished 
+sending head 1 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 46 ====================
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 47 ====================
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 48 ====================
+received packet 4 2
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 49 ====================
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 50 ====================
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 51 ====================
+received packet 4 2
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 52 ====================
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 53 ====================
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 54 ====================
+received packet 4 2
+sending head 1 packet_idx 5 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 55 ====================
+packet_info: pop packet index 4 tag index 2 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x12 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xef
+
+compare success!!!
+expected data bytes 776, rounded data bytes 776
+================ running 97 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x61 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xb
+, bits width 6464, cmd width 64, header1 width 64, header2 width 64
+sending packet 5
+packet_info: add packet index 5
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 56 ====================
+packet_info: packet_idx 5 inc tag index 0
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 57 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 58 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 59 ====================
+packet_info: packet_idx 5 inc tag index 1
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 60 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 61 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 62 ====================
+packet_info: packet_idx 5 inc tag index 2
+received packet 5 3
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 63 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 64 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 65 ====================
+packet_info: packet_idx 5 inc tag index 3
+received packet 5 4
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 66 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 67 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 68 ====================
+packet_info: packet_idx 5 inc tag index 4
+received packet 5 5
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 69 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 70 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 71 ====================
+packet_info: packet_idx 5 inc tag index 5
+received packet 5 6
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 72 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 73 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 74 ====================
+packet_info: packet_idx 5 inc tag index 6
+received packet 5 7
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 75 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 76 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 77 ====================
+packet_info: packet_idx 5 inc tag index 7
+received packet 5 8
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 78 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 79 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 80 ====================
+packet_info: packet_idx 5 inc tag index 8
+received packet 5 9
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 81 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 82 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 83 ====================
+packet_info: packet_idx 5 inc tag index 9
+received packet 5 10
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 84 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 85 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 86 ====================
+packet_info: packet_idx 5 inc tag index 10
+received packet 5 11
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 87 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 88 ====================
+sending head 0 packet_idx 5 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 89 ====================
+packet_info: packet_idx 5 inc tag index 11
+packet_info: packet_idx 5 set finished 
+received packet 5 12
+sending head 1 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 90 ====================
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 91 ====================
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 92 ====================
+received packet 5 12
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 93 ====================
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 94 ====================
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 95 ====================
+received packet 5 12
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 96 ====================
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 97 ====================
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 98 ====================
+received packet 5 12
+sending head 1 packet_idx 6 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 99 ====================
+packet_info: pop packet index 5 tag index 12 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x61 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xb
+
+compare success!!!
+expected data bytes 784, rounded data bytes 784
+================ running 98 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x62 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x18d
+, bits width 6528, cmd width 64, header1 width 64, header2 width 64
+sending packet 6
+packet_info: add packet index 6
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 100 ====================
+packet_info: packet_idx 6 inc tag index 0
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 101 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 102 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 103 ====================
+packet_info: packet_idx 6 inc tag index 1
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 104 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 105 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 106 ====================
+packet_info: packet_idx 6 inc tag index 2
+received packet 6 3
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 107 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 108 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 109 ====================
+packet_info: packet_idx 6 inc tag index 3
+received packet 6 4
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 110 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 111 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 112 ====================
+packet_info: packet_idx 6 inc tag index 4
+received packet 6 5
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 113 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 114 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 115 ====================
+packet_info: packet_idx 6 inc tag index 5
+received packet 6 6
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 116 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 117 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 118 ====================
+packet_info: packet_idx 6 inc tag index 6
+received packet 6 7
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 119 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 120 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 121 ====================
+packet_info: packet_idx 6 inc tag index 7
+received packet 6 8
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 122 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 123 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 124 ====================
+packet_info: packet_idx 6 inc tag index 8
+received packet 6 9
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 125 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 126 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 127 ====================
+packet_info: packet_idx 6 inc tag index 9
+received packet 6 10
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 128 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 129 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 130 ====================
+packet_info: packet_idx 6 inc tag index 10
+received packet 6 11
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 131 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 132 ====================
+sending head 0 packet_idx 6 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 133 ====================
+packet_info: packet_idx 6 inc tag index 11
+packet_info: packet_idx 6 set finished 
+received packet 6 12
+sending head 1 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 134 ====================
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 135 ====================
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 136 ====================
+received packet 6 12
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 137 ====================
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 138 ====================
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 139 ====================
+received packet 6 12
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 140 ====================
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 141 ====================
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 142 ====================
+received packet 6 12
+sending head 1 packet_idx 7 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 143 ====================
+packet_info: pop packet index 6 tag index 12 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x62 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x18d
+
+compare success!!!
+expected data bytes 800, rounded data bytes 800
+================ running 100 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x64 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x69
+, bits width 6656, cmd width 64, header1 width 64, header2 width 64
+sending packet 7
+packet_info: add packet index 7
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 144 ====================
+packet_info: packet_idx 7 inc tag index 0
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 145 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 146 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 147 ====================
+packet_info: packet_idx 7 inc tag index 1
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 148 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 149 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 150 ====================
+packet_info: packet_idx 7 inc tag index 2
+received packet 7 3
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 151 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 152 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 153 ====================
+packet_info: packet_idx 7 inc tag index 3
+received packet 7 4
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 154 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 155 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 156 ====================
+packet_info: packet_idx 7 inc tag index 4
+received packet 7 5
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 157 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 158 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 159 ====================
+packet_info: packet_idx 7 inc tag index 5
+received packet 7 6
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 160 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 161 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 162 ====================
+packet_info: packet_idx 7 inc tag index 6
+received packet 7 7
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 163 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 164 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 165 ====================
+packet_info: packet_idx 7 inc tag index 7
+received packet 7 8
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 166 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 167 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 168 ====================
+packet_info: packet_idx 7 inc tag index 8
+received packet 7 9
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 169 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 170 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 171 ====================
+packet_info: packet_idx 7 inc tag index 9
+received packet 7 10
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 172 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 173 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 174 ====================
+packet_info: packet_idx 7 inc tag index 10
+received packet 7 11
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 175 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 176 ====================
+sending head 0 packet_idx 7 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 177 ====================
+packet_info: packet_idx 7 inc tag index 11
+packet_info: packet_idx 7 set finished 
+received packet 7 12
+sending head 1 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 178 ====================
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 179 ====================
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 180 ====================
+received packet 7 12
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 181 ====================
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 182 ====================
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 183 ====================
+received packet 7 12
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 184 ====================
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 185 ====================
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 186 ====================
+received packet 7 12
+sending head 1 packet_idx 8 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 187 ====================
+packet_info: pop packet index 7 tag index 12 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x64 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x69
+
+compare success!!!
+expected data bytes 1016, rounded data bytes 1016
+================ running 127 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x7f source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x6e
+, bits width 8384, cmd width 64, header1 width 64, header2 width 64
+sending packet 8
+packet_info: add packet index 8
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 188 ====================
+packet_info: packet_idx 8 inc tag index 0
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 189 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 190 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 191 ====================
+packet_info: packet_idx 8 inc tag index 1
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 192 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 193 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 194 ====================
+packet_info: packet_idx 8 inc tag index 2
+received packet 8 3
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 195 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 196 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 197 ====================
+packet_info: packet_idx 8 inc tag index 3
+received packet 8 4
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 198 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 199 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 200 ====================
+packet_info: packet_idx 8 inc tag index 4
+received packet 8 5
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 201 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 202 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 203 ====================
+packet_info: packet_idx 8 inc tag index 5
+received packet 8 6
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 204 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 205 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 206 ====================
+packet_info: packet_idx 8 inc tag index 6
+received packet 8 7
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 207 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 208 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 209 ====================
+packet_info: packet_idx 8 inc tag index 7
+received packet 8 8
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 210 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 211 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 212 ====================
+packet_info: packet_idx 8 inc tag index 8
+received packet 8 9
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 213 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 214 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 215 ====================
+packet_info: packet_idx 8 inc tag index 9
+received packet 8 10
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 216 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 217 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 218 ====================
+packet_info: packet_idx 8 inc tag index 10
+received packet 8 11
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 219 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 220 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 221 ====================
+packet_info: packet_idx 8 inc tag index 11
+received packet 8 12
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 222 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 223 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 224 ====================
+packet_info: packet_idx 8 inc tag index 12
+received packet 8 13
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 225 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 226 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 227 ====================
+packet_info: packet_idx 8 inc tag index 13
+received packet 8 14
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 228 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 229 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 230 ====================
+packet_info: packet_idx 8 inc tag index 14
+received packet 8 15
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 231 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 232 ====================
+sending head 0 packet_idx 8 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 233 ====================
+packet_info: packet_idx 8 inc tag index 15
+packet_info: packet_idx 8 set finished 
+received packet 8 16
+sending head 1 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 234 ====================
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 235 ====================
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 236 ====================
+received packet 8 16
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 237 ====================
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 238 ====================
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 239 ====================
+received packet 8 16
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 240 ====================
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 241 ====================
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 242 ====================
+received packet 8 16
+sending head 1 packet_idx 9 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 243 ====================
+packet_info: pop packet index 8 tag index 16 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x7f source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x6e
+
+compare success!!!
+expected data bytes 1024, rounded data bytes 1024
+================ running 128 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x80 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xea
+, bits width 8448, cmd width 64, header1 width 64, header2 width 64
+sending packet 9
+packet_info: add packet index 9
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 244 ====================
+packet_info: packet_idx 9 inc tag index 0
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 245 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 246 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 247 ====================
+packet_info: packet_idx 9 inc tag index 1
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 248 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 249 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 250 ====================
+packet_info: packet_idx 9 inc tag index 2
+received packet 9 3
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 251 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 252 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 253 ====================
+packet_info: packet_idx 9 inc tag index 3
+received packet 9 4
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 254 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 255 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 256 ====================
+packet_info: packet_idx 9 inc tag index 4
+received packet 9 5
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 257 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 258 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 259 ====================
+packet_info: packet_idx 9 inc tag index 5
+received packet 9 6
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 260 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 261 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 262 ====================
+packet_info: packet_idx 9 inc tag index 6
+received packet 9 7
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 263 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 264 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 265 ====================
+packet_info: packet_idx 9 inc tag index 7
+received packet 9 8
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 266 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 267 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 268 ====================
+packet_info: packet_idx 9 inc tag index 8
+received packet 9 9
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 269 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 270 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 271 ====================
+packet_info: packet_idx 9 inc tag index 9
+received packet 9 10
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 272 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 273 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 274 ====================
+packet_info: packet_idx 9 inc tag index 10
+received packet 9 11
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 275 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 276 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 277 ====================
+packet_info: packet_idx 9 inc tag index 11
+received packet 9 12
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 278 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 279 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 280 ====================
+packet_info: packet_idx 9 inc tag index 12
+received packet 9 13
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 281 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 282 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 283 ====================
+packet_info: packet_idx 9 inc tag index 13
+received packet 9 14
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 284 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 285 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 286 ====================
+packet_info: packet_idx 9 inc tag index 14
+received packet 9 15
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 287 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 288 ====================
+sending head 0 packet_idx 9 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 289 ====================
+packet_info: packet_idx 9 inc tag index 15
+packet_info: packet_idx 9 set finished 
+received packet 9 16
+sending head 1 packet_idx 10 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 290 ====================
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 291 ====================
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 292 ====================
+received packet 9 16
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 293 ====================
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 294 ====================
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 295 ====================
+received packet 9 16
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 296 ====================
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 297 ====================
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 298 ====================
+received packet 9 16
+sending head 1 packet_idx 10 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 299 ====================
+packet_info: pop packet index 9 tag index 16 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x80 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xea
+
+compare success!!!
+expected data bytes 56, rounded data bytes 56
+================ running 7 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x7 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x2c
+, bits width 704, cmd width 64, header1 width 64, header2 width 64
+sending packet 10
+packet_info: add packet index 10
+sending head 0 packet_idx 10 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 300 ====================
+packet_info: packet_idx 10 inc tag index 0
+packet_info: packet_idx 10 set finished 
+sending head 1 packet_idx 11 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 301 ====================
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 302 ====================
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 303 ====================
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 304 ====================
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 305 ====================
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 306 ====================
+received packet 10 1
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 307 ====================
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 308 ====================
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 309 ====================
+received packet 10 1
+sending head 1 packet_idx 11 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 310 ====================
+packet_info: pop packet index 10 tag index 1 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x7 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x2c
+
+compare success!!!
+expected data bytes 72, rounded data bytes 72
+================ running 9 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x9 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xef
+, bits width 832, cmd width 64, header1 width 64, header2 width 64
+sending packet 11
+packet_info: add packet index 11
+sending head 0 packet_idx 11 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 311 ====================
+packet_info: packet_idx 11 inc tag index 0
+packet_info: packet_idx 11 set finished 
+sending head 1 packet_idx 12 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 312 ====================
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 313 ====================
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 314 ====================
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 315 ====================
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 316 ====================
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 317 ====================
+received packet 11 1
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 318 ====================
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 319 ====================
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 320 ====================
+received packet 11 1
+sending head 1 packet_idx 12 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 321 ====================
+packet_info: pop packet index 11 tag index 1 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x9 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xef
+
+compare success!!!
+expected data bytes 104, rounded data bytes 104
+================ running 13 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0xd source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xca
+, bits width 1088, cmd width 64, header1 width 64, header2 width 64
+sending packet 12
+packet_info: add packet index 12
+sending head 0 packet_idx 12 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 322 ====================
+packet_info: packet_idx 12 inc tag index 0
+sending head 0 packet_idx 12 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 323 ====================
+sending head 0 packet_idx 12 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 324 ====================
+sending head 0 packet_idx 12 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 325 ====================
+packet_info: packet_idx 12 inc tag index 1
+packet_info: packet_idx 12 set finished 
+sending head 1 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 326 ====================
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 327 ====================
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 328 ====================
+received packet 12 2
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 329 ====================
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 330 ====================
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 331 ====================
+received packet 12 2
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 332 ====================
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 333 ====================
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 334 ====================
+received packet 12 2
+sending head 1 packet_idx 13 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 335 ====================
+packet_info: pop packet index 12 tag index 2 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0xd source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0xca
+
+compare success!!!
+expected data bytes 792, rounded data bytes 792
+================ running 99 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x63 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x1ce
+, bits width 6592, cmd width 64, header1 width 64, header2 width 64
+sending packet 13
+packet_info: add packet index 13
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 336 ====================
+packet_info: packet_idx 13 inc tag index 0
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 337 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 338 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 339 ====================
+packet_info: packet_idx 13 inc tag index 1
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 340 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 341 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 342 ====================
+packet_info: packet_idx 13 inc tag index 2
+received packet 13 3
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 343 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 344 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 345 ====================
+packet_info: packet_idx 13 inc tag index 3
+received packet 13 4
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 346 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 347 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 348 ====================
+packet_info: packet_idx 13 inc tag index 4
+received packet 13 5
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 349 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 350 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 351 ====================
+packet_info: packet_idx 13 inc tag index 5
+received packet 13 6
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 352 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 353 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 354 ====================
+packet_info: packet_idx 13 inc tag index 6
+received packet 13 7
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 355 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 356 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 357 ====================
+packet_info: packet_idx 13 inc tag index 7
+received packet 13 8
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 358 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 359 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 360 ====================
+packet_info: packet_idx 13 inc tag index 8
+received packet 13 9
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 361 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 362 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 363 ====================
+packet_info: packet_idx 13 inc tag index 9
+received packet 13 10
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 364 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 365 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 366 ====================
+packet_info: packet_idx 13 inc tag index 10
+received packet 13 11
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 367 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 368 ====================
+sending head 0 packet_idx 13 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 369 ====================
+packet_info: packet_idx 13 inc tag index 11
+packet_info: packet_idx 13 set finished 
+received packet 13 12
+sending head 1 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 370 ====================
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 371 ====================
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 372 ====================
+received packet 13 12
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 373 ====================
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 374 ====================
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 375 ====================
+received packet 13 12
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 376 ====================
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 377 ====================
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 378 ====================
+received packet 13 12
+sending head 1 packet_idx 14 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 379 ====================
+packet_info: pop packet index 13 tag index 12 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x63 source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x1ce
+
+compare success!!!
+expected data bytes 992, rounded data bytes 992
+================ running 124 chunks =================
+proto_params.ccps_filt_width 64
+sizeof(BigUInt) 144
+-----------------> sending payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x7c source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x1eb
+, bits width 8192, cmd width 64, header1 width 64, header2 width 64
+sending packet 14
+packet_info: add packet index 14
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 380 ====================
+packet_info: packet_idx 14 inc tag index 0
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 381 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 382 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 383 ====================
+packet_info: packet_idx 14 inc tag index 1
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 384 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 385 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 386 ====================
+packet_info: packet_idx 14 inc tag index 2
+received packet 14 3
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 387 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 388 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 389 ====================
+packet_info: packet_idx 14 inc tag index 3
+received packet 14 4
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 390 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 391 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 392 ====================
+packet_info: packet_idx 14 inc tag index 4
+received packet 14 5
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 393 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 394 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 395 ====================
+packet_info: packet_idx 14 inc tag index 5
+received packet 14 6
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 396 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 397 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 398 ====================
+packet_info: packet_idx 14 inc tag index 6
+received packet 14 7
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 399 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 400 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 401 ====================
+packet_info: packet_idx 14 inc tag index 7
+received packet 14 8
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 402 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 403 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 404 ====================
+packet_info: packet_idx 14 inc tag index 8
+received packet 14 9
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 405 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 406 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 407 ====================
+packet_info: packet_idx 14 inc tag index 9
+received packet 14 10
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 408 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 409 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 410 ====================
+packet_info: packet_idx 14 inc tag index 10
+received packet 14 11
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 411 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 412 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 413 ====================
+packet_info: packet_idx 14 inc tag index 11
+received packet 14 12
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 414 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 415 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 416 ====================
+packet_info: packet_idx 14 inc tag index 12
+received packet 14 13
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 417 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 418 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 419 ====================
+packet_info: packet_idx 14 inc tag index 13
+received packet 14 14
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 0
+=============== step 420 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 421 ====================
+sending head 0 packet_idx 14 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 0 finish 0
+=============== step 422 ====================
+packet_info: packet_idx 14 inc tag index 14
+packet_info: packet_idx 14 set finished 
+received packet 14 15
+sending head 1 packet_idx 15 val_tl_lp_data_valid 1 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 423 ====================
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 424 ====================
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 0 finish 1
+=============== step 425 ====================
+received packet 14 15
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 426 ====================
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 427 ====================
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 428 ====================
+received packet 14 15
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 429 ====================
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 430 ====================
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 431 ====================
+received packet 14 15
+sending head 1 packet_idx 15 val_tl_lp_data_valid 0 c.io.tl_lp_data_ready() 1 finish 1
+=============== step 432 ====================
+packet_info: pop packet index 14 tag index 15 finished 1
+-----------------> rcv payload: 
+-- CCPSCmdFormat --, msg_type: 0x1 host_id: 0x1 partner_id: 0x2 tl_a_credit: 0xf tl_b_credit: 0xf tl_c_credit: 0xf tl_d_credit: 0xf tl_e_credit: 0xf reserved_cmd: 0xf
+-- CCPSHeader1Format --, address: 0xa5a5a5a5
+-- CCPSHeader2Format --, opcode: 0x1 param: 0x2 size: 0x7c source: 0x4 sink: 0x5 mask: 0x6 reservedh2: 0x7
+ ecc: 0x1eb
+
+compare success!!!
+=============== step 433 ====================
+[       OK ] CCPSTopTest.LoopbackTest (8751 ms)
+[----------] 1 test from CCPSTopTest (8751 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8751 ms total)
+[  PASSED  ] 1 test.
